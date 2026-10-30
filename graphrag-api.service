@@ -1,0 +1,18 @@
+[Unit]
+Description=GraphRAG API Service
+After=network.target
+
+[Service]
+Type=notify
+User=graphrag
+Group=graphrag
+WorkingDirectory=/home/graphrag/graphrag_engine
+Environment=PATH=/home/graphrag/graphrag_engine/venv/bin
+ExecStart=/home/graphrag/graphrag_engine/venv/bin/uvicorn src.api.fastapi_service:app --host 0.0.0.0 --port 8000 --workers 1
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/graphrag/graphrag_engine/logs/api_access.log
+StandardError=append:/home/graphrag/graphrag_engine/logs/api_error.log
+
+[Install]
+WantedBy=multi-user.target

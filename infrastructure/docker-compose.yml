@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  graphrag:
+    build: .
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./ingestion_mouth:/app/ingestion_mouth
+    ports:
+      - "8000:8000"
+    env_file: .env
+    restart: unless-stopped

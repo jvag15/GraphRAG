@@ -1,0 +1,183 @@
+{
+  "_meta": {
+    "description": "Multi-hop GraphRAG evaluation suite for Indian Accounting Standards",
+    "total_queries": 25
+  },
+  "queries": [
+    {
+      "id": "TEST_001",
+      "query": "If an enterprise acquires a depreciable fixed asset using a foreign currency loan, how do AS 11, AS 16, and AS 10 interact regarding the capitalization of exchange differences and borrowing costs?",
+      "difficulty": "High",
+      "target_standards": ["AS 10", "AS 11", "AS 16"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_002",
+      "query": "How did the issuance of AS 29 (Provisions, Contingent Liabilities and Contingent Assets) alter the applicability of the contingency paragraphs previously contained within AS 4?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 4", "AS 29"],
+      "hop_type": "Supersession/Amendment"
+    },
+    {
+      "id": "TEST_003",
+      "query": "What are the exact exemptions available to a Level III Non-company entity regarding the disclosure of employee benefits under AS 15 and segment reporting under AS 17?",
+      "difficulty": "High",
+      "target_standards": ["AS Appendix 1", "AS 15", "AS 17"],
+      "hop_type": "Classification Filtering"
+    },
+    {
+      "id": "TEST_004",
+      "query": "Explain the difference in revenue recognition timing between the percentage of completion method used for construction contracts under AS 7 and the proportionate completion method used for rendering services under AS 9.",
+      "difficulty": "Medium",
+      "target_standards": ["AS 7", "AS 9"],
+      "hop_type": "Conceptual Comparison"
+    },
+    {
+      "id": "TEST_005",
+      "query": "When calculating Diluted Earnings Per Share under AS 20, how should an enterprise account for shares that are to be issued as contingent consideration for an amalgamation accounted for under the purchase method in AS 14?",
+      "difficulty": "High",
+      "target_standards": ["AS 14", "AS 20"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_006",
+      "query": "If a government grant is received specifically for the purchase of a depreciable asset, what are the two acceptable accounting treatments under AS 12, and how do they subsequently affect the depreciation calculation under AS 10?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 10", "AS 12"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_007",
+      "query": "Contrast the consolidation procedures required by AS 21 for a subsidiary with the proportionate consolidation method required by AS 27 for a jointly controlled entity.",
+      "difficulty": "High",
+      "target_standards": ["AS 21", "AS 27"],
+      "hop_type": "Conceptual Comparison"
+    },
+    {
+      "id": "TEST_008",
+      "query": "Under AS 3, how should unrealized gains and losses arising from changes in foreign exchange rates on cash equivalents be presented in the Cash Flow Statement, and how does this relate to AS 11?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 3", "AS 11"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_009",
+      "query": "If an enterprise decides to dispose of a non-integral foreign operation, how is the cumulative exchange difference handled upon disposal under AS 11, and does this qualify as a discontinuing operation under AS 24?",
+      "difficulty": "High",
+      "target_standards": ["AS 11", "AS 24"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_010",
+      "query": "Determine the treatment of an impairment loss recognized on a revalued asset. Detail how it interacts with the revaluation surplus under AS 10 and the impairment loss recognition under AS 28.",
+      "difficulty": "High",
+      "target_standards": ["AS 10", "AS 28"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_011",
+      "query": "A company changes its method of depreciation. Should this be treated as a change in accounting policy under AS 5 or a change in accounting estimate under AS 10?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 5", "AS 10"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_012",
+      "query": "In the context of related party disclosures (AS 18), are disclosures of transactions between a parent and its wholly-owned subsidiary required in the consolidated financial statements prepared under AS 21?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 18", "AS 21"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_013",
+      "query": "How is the tax expense calculated for an interim financial report under AS 25, and how does it utilize the principles of accounting for taxes on income under AS 22?",
+      "difficulty": "High",
+      "target_standards": ["AS 22", "AS 25"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_014",
+      "query": "What is the accounting treatment for internally generated computer software? Explain the transition from the research phase to the development phase under AS 26.",
+      "difficulty": "Medium",
+      "target_standards": ["AS 26"],
+      "hop_type": "Single Document Depth"
+    },
+    {
+      "id": "TEST_015",
+      "query": "If an enterprise acquires another company and recognizes goodwill under AS 14, how is that goodwill subsequently evaluated for impairment under AS 28?",
+      "difficulty": "High",
+      "target_standards": ["AS 14", "AS 28"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_016",
+      "query": "Under AS 19, if a sale and leaseback transaction results in an operating lease, and the sale price is below fair value but compensated by future lease payments at below market price, how is the loss treated?",
+      "difficulty": "High",
+      "target_standards": ["AS 19"],
+      "hop_type": "Single Document Depth"
+    },
+    {
+      "id": "TEST_017",
+      "query": "Are biological assets related to agricultural activity covered under AS 10? State the specific inclusions and exclusions.",
+      "difficulty": "Low",
+      "target_standards": ["AS 10"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_018",
+      "query": "Under AS 2, can fixed production overheads be allocated based on the actual level of production if it is abnormally low? Explain the required treatment.",
+      "difficulty": "Medium",
+      "target_standards": ["AS 2"],
+      "hop_type": "Single Document Depth"
+    },
+    {
+      "id": "TEST_019",
+      "query": "Identify the criteria required to classify a foreign operation as an 'integral foreign operation' versus a 'non-integral foreign operation' under AS 11.",
+      "difficulty": "Medium",
+      "target_standards": ["AS 11"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_020",
+      "query": "When an investment in an associate is accounted for using the equity method under AS 23, how should the investor account for its share of the associate's extraordinary items defined in AS 5?",
+      "difficulty": "High",
+      "target_standards": ["AS 5", "AS 23"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_021",
+      "query": "If a Small and Medium Sized Company (SMC) chooses not to discount the amounts of short-term accumulating compensated absences under AS 15, what disclosure must it make according to Appendix 1?",
+      "difficulty": "High",
+      "target_standards": ["AS Appendix 1", "AS 15"],
+      "hop_type": "Classification Filtering"
+    },
+    {
+      "id": "TEST_022",
+      "query": "Under AS 13, if an enterprise reclassifies a long-term investment as a current investment, at what value should the transfer be made?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 13"],
+      "hop_type": "Single Document Depth"
+    },
+    {
+      "id": "TEST_023",
+      "query": "Explain the 'bottom-up' and 'top-down' tests under AS 28 when allocating corporate assets to cash-generating units for impairment testing.",
+      "difficulty": "High",
+      "target_standards": ["AS 28"],
+      "hop_type": "Single Document Depth"
+    },
+    {
+      "id": "TEST_024",
+      "query": "According to AS 9, when should revenue from installation fees be recognized if the installation is incidental to the sale of a product versus when it is not incidental?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 9"],
+      "hop_type": "Conditional Logic"
+    },
+    {
+      "id": "TEST_025",
+      "query": "Does the definition of a 'qualifying asset' under AS 16 apply to inventories that are routinely manufactured or otherwise produced in large quantities on a repetitive basis?",
+      "difficulty": "Low",
+      "target_standards": ["AS 16"],
+      "hop_type": "Exception Handling"
+    }
+  ]
+}

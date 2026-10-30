@@ -1,0 +1,183 @@
+{
+  "_meta": {
+    "description": "Multi-hop GraphRAG evaluation suite for Indian Accounting Standards - Volume 7 (Extreme Difficulty & High Noise)",
+    "total_queries": 25
+  },
+  "queries": [
+    {
+      "id": "TEST_151",
+      "query": "In a consolidated interim financial report (AS 21, AS 25), how must a parent company handle the actuarial valuation of a subsidiary's defined benefit plan (AS 15) if the subsidiary operates in a hyperinflationary economy?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 15", "AS 21", "AS 25"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_152",
+      "query": "If an acquiring company in an amalgamation in the nature of purchase (AS 14) recognizes a deferred tax asset (AS 22) on the transferor's unrecorded internally generated software, how does AS 26 restrict the corresponding adjustment to goodwill?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 14", "AS 22", "AS 26"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_153",
+      "query": "An enterprise capitalizes foreign exchange differences (AS 11) as borrowing costs (AS 16) for a qualifying asset. If the asset subsequently suffers a severe impairment (AS 28), in what exact sequence must the capitalized exchange differences be written down?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 11", "AS 16", "AS 28"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_154",
+      "query": "If a construction contract (AS 7) becomes onerous, how does the recognition of the expected loss under AS 29 alter the allocation of unallocated corporate assets for the purpose of segment reporting under AS 17?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 7", "AS 17", "AS 29"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_155",
+      "query": "How is the statutory depreciation (AS 10) of an asset acquired under a finance lease (AS 19) affected if the enterprise retroactively receives a government grant in the nature of promoters' contribution (AS 12) for that specific asset?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 10", "AS 12", "AS 19"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_156",
+      "query": "When a jointly controlled entity (AS 27) meets the criteria for a discontinuing operation (AS 24), how must the venturer recalculate the numerator for Diluted Earnings Per Share (AS 20) in its consolidated financial statements?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 20", "AS 24", "AS 27"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_157",
+      "query": "Under AS 3, how should the cash inflows from dividends received from an associate (AS 23) be presented if the investment was reclassified as a current investment under AS 13 immediately prior to the dividend declaration?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 3", "AS 13", "AS 23"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_158",
+      "query": "A related party (AS 18) files a massive lawsuit against the enterprise after the balance sheet date but before approval. Detail the interplay between AS 4 and AS 29 regarding the classification of this contingent liability.",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 4", "AS 18", "AS 29"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_159",
+      "query": "If an enterprise maintains a dedicated property (AS 10) used exclusively for administering its post-employment benefit plan (AS 15), how are the impairment indicators for this property assessed under AS 28?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 10", "AS 15", "AS 28"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_160",
+      "query": "An enterprise changes its accounting policy (AS 5) regarding the treatment of exchange differences under AS 11 paragraph 46A. How must it retrospectively adjust the capitalized borrowing costs previously calculated under AS 16?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 5", "AS 11", "AS 16"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_161",
+      "query": "If a 20-year-old Full-Stack Engineer is strictly 180cm tall, how does AS 21 dictate the consolidation of their Bachelor of Commerce accounting principles into the parent company's financial statements?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_162",
+      "query": "When applying an anti-yellowing transparent case to a Nothing Phone (2a), does AS 2 require the thermoplastic polyurethane to be valued at historical cost or net realizable value upon installation?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_163",
+      "query": "Under AS 10 Property, Plant and Equipment, what is the mandatory depreciation method for the primary highway interchange nodes configured in Cities: Skylines 2 to prevent traffic bottlenecks?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_164",
+      "query": "Does the successful completion of a machine pullover set utilizing a Mag Grip attachment qualify as a self-generated intangible asset under AS 26, provided the 122g daily protein target is met?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_165",
+      "query": "If an enterprise ingests a 'Sex on the Beach' flavored pre-workout supplement before executing a HIIT routine, does AS 12 classify the subsequent energy spike as a government grant related to revenue?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_166",
+      "query": "How must the unrealized gains on a collection of 1970s and 1980s Bollywood vinyl records be presented under AS 13 if they are strictly classified as current investments for immediate resale?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_167",
+      "query": "During an amalgamation in the nature of a merger under AS 14, how are the version 1.3 kernel benchmarking logs for the Peridot retrieval-augmented generation system transferred to the transferee company's statutory reserves?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_168",
+      "query": "Under AS 19, if an enterprise executes a sale and leaseback transaction on a neutral grip lat pulldown machine, how must the resulting hypertrophy gains be amortized over the lease term?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_169",
+      "query": "Does discovering the RE9 monitor control room safe code prior to the balance sheet date constitute a contingent asset under AS 4 that requires mandatory disclosure in the Director's Report?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_170",
+      "query": "According to AS 15 Employee Benefits, what is the optimal discount rate for calculating the present value of retirement obligations for a Full-Stack Engineer operating out of Bengaluru, Karnataka?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_171",
+      "query": "If a multi-step installation of LineageOS on a Redmi Note 11 results in a soft-brick, does AS 28 require an immediate impairment loss recognition against the device's bootloader?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_172",
+      "query": "Under AS 29, how should an enterprise provision for the psychological liabilities incurred by Venom Snake during the Metal Gear Solid V birthday cutscene?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_173",
+      "query": "If the Dragonborn fails to exit werewolf form in Skyrim before dawn, does AS 5 mandate that this transformation be disclosed as a prior period error or a change in accounting estimate?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_174",
+      "query": "When procuring an RTX 5070 and Ryzen 5 7600X from SP Road, does AS 16 permit the capitalization of the rickshaw fare as a borrowing cost directly attributable to the acquisition of a qualifying asset?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_175",
+      "query": "If Arthur Morgan successfully tames the Red Chestnut Arabian horse in RDR2, must this acquisition be capitalized as Property, Plant and Equipment under AS 10 or measured at fair value less costs to sell?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    }
+  ]
+}

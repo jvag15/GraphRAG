@@ -1,0 +1,183 @@
+{
+  "_meta": {
+    "description": "Multi-hop GraphRAG evaluation suite for Indian Accounting Standards - Volume 5 (Hallucination Stress Test)",
+    "total_queries": 25
+  },
+  "queries": [
+    {
+      "id": "TEST_101",
+      "query": "If an enterprise capitalizes borrowing costs for a qualifying asset under AS 16, how does this increased carrying amount affect the calculation of the asset's value in use when testing for impairment under AS 28?",
+      "difficulty": "High",
+      "target_standards": ["AS 16", "AS 28"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_102",
+      "query": "How is a deferred tax asset (AS 22) calculated on the transitional liability recognized for a defined benefit plan when adopting the revised AS 15?",
+      "difficulty": "High",
+      "target_standards": ["AS 15", "AS 22"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_103",
+      "query": "An enterprise revalues its property, plant, and equipment under AS 10. If these assets belong to a division that is subsequently classified as a discontinuing operation under AS 24, how is the revaluation reserve treated?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 10", "AS 24"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_104",
+      "query": "When an enterprise borrows in a foreign currency (AS 11) to manufacture inventory that requires a substantial period to get ready for sale (AS 2), under what exact conditions can the exchange differences be capitalized under AS 16?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 2", "AS 11", "AS 16"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_105",
+      "query": "Under AS 18, transactions between a parent and a subsidiary require disclosure. Are these disclosures completely eliminated in the consolidated financial statements prepared under AS 21?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 18", "AS 21"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_106",
+      "query": "In an amalgamation in the nature of purchase (AS 14), if the acquiring company wishes to recognize internally generated goodwill from the transferor company, how does AS 26 prohibit or allow this?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 14", "AS 26"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_107",
+      "query": "If an enterprise recognizes revenue from the sale of heavy machinery under AS 9, what is the precise sequential relationship for establishing the associated warranty liability under AS 29?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 9", "AS 29"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_108",
+      "query": "When a venturer accounts for its interest in a jointly controlled entity using proportionate consolidation (AS 27), how does this affect the numerator and denominator for calculating Diluted Earnings Per Share under AS 20?",
+      "difficulty": "High",
+      "target_standards": ["AS 20", "AS 27"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_109",
+      "query": "A major production facility (AS 10) is completely destroyed by an earthquake after the balance sheet date but before the financial statements are approved. Does this trigger an adjustment to the carrying amount or merely a disclosure under AS 4?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 4", "AS 10"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_110",
+      "query": "Are full actuarial valuations for post-employment benefit obligations (AS 15) strictly mandatory for every quarterly interim financial report prepared under AS 25?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 15", "AS 25"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_111",
+      "query": "Under the provisions of the Treaty of Versailles, how must an enterprise allocate post-war reparations when calculating cash flows from financing activities under AS 3?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_112",
+      "query": "If a Level II Non-company entity uses a sourdough starter with an 80% hydration level, does AS 2 require the 48-hour fermentation time to be capitalized as a direct conversion cost?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_113",
+      "query": "When calculating the event horizon of a Schwarzschild black hole, how does AS 28 require the singularity to be assessed for impairment indicators?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_114",
+      "query": "According to the depreciation rules in AS 10, what is the required amortization schedule for a Jedi lightsaber whose internal kyber crystal has been assessed with an indefinite useful life?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_115",
+      "query": "How does the functional harmonic difference between a German augmented sixth chord and a French augmented sixth chord impact the geographical segment reporting boundaries under AS 17?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_116",
+      "query": "Under AS 14, if the Galactic Empire amalgamates with the Rebel Alliance in the nature of a merger, how must the negative goodwill generated by the Death Star's destruction be recognized in the consolidated reserves?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_117",
+      "query": "When an alchemist utilizes the Philosopher's Stone to transmute raw lead into gold, does AS 11 classify this physical transmutation as a foreign exchange transaction or an operational gain?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_118",
+      "query": "If a manufacturing company utilizes a sequential twin-turbocharger to boost its diesel engines, how must the resulting exhaust thermal efficiency gains be disclosed under AS 18 Related Party Disclosures?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_119",
+      "query": "Does AS 26 permit the capitalization of biological research costs incurred while developing a cure for the T-Virus, assuming the Umbrella Corporation can demonstrate technical feasibility and intent to complete?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_120",
+      "query": "If an enterprise successfully captures a wild Snorlax using a Master Ball, does it qualify as a biological asset under AS 10, or should it be treated as stock-in-trade inventory under AS 2?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_121",
+      "query": "Under the criteria set by AS 16, can the base mana cost required by a warlock to cast a Level 9 summoning spell be treated as a borrowing cost eligible for capitalization?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_122",
+      "query": "When an Adeptus Astartes Space Marine transitions from active duty into a cybernetic Dreadnought, must this biological transfer be reported as a discontinuing operation under AS 24?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_123",
+      "query": "How do the maritime boundary lines established by the 1494 Treaty of Tordesillas dictate the geographical segment reporting thresholds under AS 17 for modern Spanish and Portuguese shipping enterprises?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_124",
+      "query": "If a corporation's board of directors inputs the Konami Code to gain 30 extra lives, how does AS 20 require these extra lives to be factored into the weighted average number of equity shares for calculating diluted EPS?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_125",
+      "query": "According to the definitions in AS 15, are the immortal souls harvested by a Lich King considered short-term employee benefits or long-term post-employment actuarial obligations?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    }
+  ]
+}

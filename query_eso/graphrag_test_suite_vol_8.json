@@ -1,0 +1,183 @@
+{
+  "_meta": {
+    "description": "Multi-hop GraphRAG evaluation suite for Indian Accounting Standards - Volume 8 (90% Hard, 25% Poisoned, Medium 3-Hop Intro)",
+    "total_queries": 25
+  },
+  "queries": [
+    {
+      "id": "TEST_176",
+      "query": "If a company manufactures inventory (AS 2) and sells it to recognize revenue (AS 9), but provides a standard one-year warranty on all units sold, how must the warranty provision be calculated and disclosed under AS 29?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 2", "AS 9", "AS 29"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_177",
+      "query": "An enterprise constructs a new fixed asset (AS 10) using borrowed funds (AS 16) and receives a government grant to subsidize the construction (AS 12). How do these three standards interact to determine the final capitalized carrying amount?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 10", "AS 12", "AS 16"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_178",
+      "query": "How does an enterprise present the cash outflow (AS 3) for a current investment (AS 13) that was purchased in a foreign currency (AS 11) using the exchange rate on the date of the transaction?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 3", "AS 11", "AS 13"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_179",
+      "query": "In an amalgamation in the nature of purchase (AS 14), how does the acquiring company recognize deferred tax assets (AS 22) arising specifically from the unrecorded post-employment benefit obligations (AS 15) of the transferor company?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 14", "AS 15", "AS 22"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_180",
+      "query": "Contrast the elimination of unrealized profits on downstream inventory transactions when an investor accounts for an associate under AS 23, a jointly controlled entity under AS 27, and a fully owned subsidiary under AS 21.",
+      "difficulty": "Hard",
+      "target_standards": ["AS 21", "AS 23", "AS 27"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_181",
+      "query": "If a division classified as a discontinuing operation (AS 24) holds assets under a finance lease (AS 19), how does the enterprise calculate the recoverable amount for impairment testing (AS 28) considering the outstanding lease liabilities?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 19", "AS 24", "AS 28"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_182",
+      "query": "For an overseas construction contract (AS 7) denominated in a foreign currency (AS 11), how are exchange rate fluctuations factored into the calculation of expected losses that require immediate provisioning under AS 29?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 7", "AS 11", "AS 29"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_183",
+      "query": "Can borrowing costs (AS 16) be capitalized into the carrying amount of an internally generated intangible asset (AS 26) that is being developed using highly specialized physical equipment (AS 10)?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 10", "AS 16", "AS 26"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_184",
+      "query": "How does an enterprise price the transfer of inventory (AS 2) between two geographical segments (AS 17) if the receiving segment is controlled by key management personnel, triggering related party disclosures (AS 18)?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 2", "AS 17", "AS 18"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_185",
+      "query": "If an acquiring company in an amalgamation (AS 14) assumes a contingent liability of the transferor, how do the recognition criteria in AS 29 supersede the disclosure-only requirements of AS 4 for the consolidated balance sheet?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 4", "AS 14", "AS 29"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_186",
+      "query": "In consolidated financial statements (AS 21), how must a parent company translate the actuarial gains and losses (AS 15) of a non-integral foreign subsidiary whose defined benefit plan is denominated in a foreign currency (AS 11)?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 11", "AS 15", "AS 21"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_187",
+      "query": "If an enterprise reclassifies a long-term investment as current (AS 13) and subsequently sells it recognizing a massive gain (AS 9) during the second quarter, how is this uneven income treated in the interim financial report (AS 25)?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 9", "AS 13", "AS 25"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_188",
+      "query": "When a government grant (AS 12) directly subsidizes the interest expense on a specific borrowing (AS 16), how does the net presentation affect the calculation of timing differences for deferred tax liability (AS 22)?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 12", "AS 16", "AS 22"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_189",
+      "query": "If a prior period error (AS 5) resulted in the total omission of an impairment loss (AS 28) on property, plant, and equipment (AS 10) three years ago, what is the mandatory adjustment process to the current carrying amount?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 5", "AS 10", "AS 28"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_190",
+      "query": "How are the cash flows related to the principal and interest portions of a finance lease (AS 19) segregated in the Cash Flow Statement (AS 3) when the leased asset strictly belongs to a discontinuing operation (AS 24)?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 3", "AS 19", "AS 24"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_191",
+      "query": "If an enterprise holds a long-term investment in a foreign entity (AS 13) and defers the exchange differences in a Foreign Currency Translation Reserve (AS 11), does this create a taxable timing difference under AS 22?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 11", "AS 13", "AS 22"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_192",
+      "query": "Can the deferred development costs (AS 26) of specialized software built in-house be tested for impairment (AS 28) by incorporating the actuarial assumptions (AS 15) of the software development team's pension plan into the asset's value in use?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 15", "AS 26", "AS 28"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_193",
+      "query": "If spare parts currently held as inventory (AS 2) are reclassified as Property, Plant, and Equipment (AS 10) during a financial quarter, how must this transition be disclosed in the interim financial report (AS 25)?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 2", "AS 10", "AS 25"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_194",
+      "query": "How does the recognition of an onerous contract provision (AS 29) by an acquiring company during an amalgamation (AS 14) alter the net asset valuation and subsequently the calculation of basic earnings per share (AS 20)?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 14", "AS 20", "AS 29"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_195",
+      "query": "Under AS 14 Amalgamations, if uncoalesced engineers a local AI kernel named Peridot, how are the retrieval-augmented generation repositories valued when transferring assets in the nature of a merger?",
+      "difficulty": "Hard",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_196",
+      "query": "If an enterprise drafts first-person poetry to commemorate a four-year anniversary on April 11th, does AS 26 permit the capitalization of the emotional resonance as an internally generated intangible asset?",
+      "difficulty": "Hard",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_197",
+      "query": "According to the segment reporting requirements in AS 17, how should the geographical boundaries of Night City be allocated when reporting Cyberpunk 2077 revenue streams generated by the Voodoo Boys?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_198",
+      "query": "If the mother of a 20-year-old Full-Stack Engineer provides a highly supportive message, does AS 18 Related Party Disclosures strictly mandate the disclosure of this emotional support in the consolidated financial statements?",
+      "difficulty": "Hard",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_199",
+      "query": "Under the framework of AS 28 Impairment of Assets, what is the exact protocol for assessing the carrying amount of a failed motherboard that was diagnosed prior to optimizing an NVIDIA RTX 5050 GPU?",
+      "difficulty": "Hard",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_200",
+      "query": "If a Bachelor of Commerce student coordinates a college festival event titled The Signal Grid featuring a 1980s aesthetic, must the weightage-based scoring system be recognized as a contingent asset under AS 4?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    }
+  ]
+}
