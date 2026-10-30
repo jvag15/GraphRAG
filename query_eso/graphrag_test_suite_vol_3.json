@@ -1,0 +1,183 @@
+{
+  "_meta": {
+    "description": "Multi-hop GraphRAG evaluation suite for Indian Accounting Standards - Volume 3",
+    "total_queries": 25
+  },
+  "queries": [
+    {
+      "id": "TEST_051",
+      "query": "If an enterprise decides to dispose of a major division, how does this trigger the curtailment of defined benefit plans under AS 15, and when must the associated restructuring provisions be recognized under AS 29 and AS 24?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 15", "AS 24", "AS 29"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_052",
+      "query": "In an amalgamation in the nature of purchase (AS 14), how are internally generated intangible assets of the transferor company, which previously failed recognition under AS 26, treated by the transferee company?",
+      "difficulty": "High",
+      "target_standards": ["AS 14", "AS 26"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_053",
+      "query": "When an enterprise borrows in a foreign currency to construct a qualifying asset, how is the threshold determined to separate the exchange difference under AS 11 from the capitalizable borrowing cost under AS 16?",
+      "difficulty": "High",
+      "target_standards": ["AS 11", "AS 16"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_054",
+      "query": "How is the tax effect of exchange differences on a monetary item forming part of an enterprise's net investment in a non-integral foreign operation accounted for across AS 11 and AS 22?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 11", "AS 22"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_055",
+      "query": "If a large multi-geography construction contract (AS 7) spans several international borders, how must the contract revenue and costs be allocated for geographical segment reporting under AS 17?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 7", "AS 17"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_056",
+      "query": "When an enterprise recognizes revenue from a related party transaction (AS 9) but significant uncertainty of collection arises subsequently, what are the disclosure requirements under both AS 9 and AS 18?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 9", "AS 18"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_057",
+      "query": "A subsidiary receives a government grant in the nature of promoter's contribution (AS 12). How is this grant presented in the consolidated balance sheet under AS 21 when a 40% minority interest exists?",
+      "difficulty": "High",
+      "target_standards": ["AS 12", "AS 21"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_058",
+      "query": "What is the accounting treatment for imported inventory (AS 2) when the forward exchange contract entered into to hedge it is unexpectedly cancelled prior to the settlement date under AS 11?",
+      "difficulty": "High",
+      "target_standards": ["AS 2", "AS 11"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_059",
+      "query": "Are full actuarial valuations for defined benefit obligations strictly required for every interim financial report under AS 25, or does AS 15 allow for a different treatment during interim periods?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 15", "AS 25"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_060",
+      "query": "A long-pending lawsuit is ruled against the enterprise after the balance sheet date but before the financial statements are approved. Detail the precise adjustment required under AS 4 and the provisioning rules under AS 29.",
+      "difficulty": "Medium",
+      "target_standards": ["AS 4", "AS 29"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_061",
+      "query": "If an investor acquires an interest in an associate exclusively with a view to its subsequent disposal within twelve months, how does this exemption from AS 23 force the valuation to fall under AS 13?",
+      "difficulty": "High",
+      "target_standards": ["AS 13", "AS 23"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_062",
+      "query": "When an enterprise applies proportionate consolidation for a jointly controlled entity under AS 27, how does it adjust the denominator for calculating basic earnings per share under AS 20?",
+      "difficulty": "High",
+      "target_standards": ["AS 20", "AS 27"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_063",
+      "query": "An enterprise discovers a mathematical mistake in its depreciation calculation from three years ago. Must this be treated as a change in accounting estimate under AS 10 or a prior period item under AS 5?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 5", "AS 10"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_064",
+      "query": "When assets are retired from active use and held for disposal as part of a discontinuing operation (AS 24), how is the write-down calculated under AS 10, and how does it relate to impairment testing under AS 28?",
+      "difficulty": "High",
+      "target_standards": ["AS 10", "AS 24", "AS 28"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_065",
+      "query": "Is a Level II non-company entity strictly mandated to prepare and present a Cash Flow Statement according to the applicability criteria in Appendix 1 and the scope of AS 3?",
+      "difficulty": "Low",
+      "target_standards": ["AS 3", "AS Appendix 1"],
+      "hop_type": "Classification Filtering"
+    },
+    {
+      "id": "TEST_066",
+      "query": "Explain how the depreciation of an asset acquired under a finance lease (AS 19) interacts with the statutory tax depreciation to create a timing difference resulting in a deferred tax liability under AS 22.",
+      "difficulty": "Medium",
+      "target_standards": ["AS 19", "AS 22"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_067",
+      "query": "Can an enterprise capitalize borrowing costs under AS 16 for an investment property covered under AS 13 if the property takes a substantial period of time to get ready for its intended use?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 13", "AS 16"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_068",
+      "query": "If an intangible asset, such as a broadcasting license, is acquired free of charge by way of a government grant, how must it be initially recorded under AS 12 and subsequently amortized under AS 26?",
+      "difficulty": "High",
+      "target_standards": ["AS 12", "AS 26"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_069",
+      "query": "Detail the specific exemptions provided to Level III non-company entities regarding the discounting of amounts for other long-term employee benefits under AS 15 according to Appendix 1.",
+      "difficulty": "Medium",
+      "target_standards": ["AS 15", "AS Appendix 1"],
+      "hop_type": "Classification Filtering"
+    },
+    {
+      "id": "TEST_070",
+      "query": "In consolidated financial statements (AS 21), how must the parent company handle the elimination of unrealized profits present in the closing inventory (AS 2) resulting from downstream intra-group sales?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 2", "AS 21"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_071",
+      "query": "If a High Court order approving an amalgamation is received after the balance sheet date but before the financial statements are approved, should it be incorporated into the accounts under AS 14 or merely disclosed under AS 4?",
+      "difficulty": "High",
+      "target_standards": ["AS 4", "AS 14"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_072",
+      "query": "Under the transitional provisions of paragraph 46A in AS 11, if an enterprise adds exchange differences to the cost of a depreciable asset, how does this alter the subsequent depreciation schedule required by AS 10?",
+      "difficulty": "High",
+      "target_standards": ["AS 10", "AS 11"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_073",
+      "query": "When goods are sold subject to installation, and the installation process is complex with uncertain costs, how should the revenue be deferred under AS 9 as opposed to creating a provision under AS 29?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 9", "AS 29"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_074",
+      "query": "Does AS 28 permit an enterprise to reverse an impairment loss that was previously recognized specifically on goodwill arising from an amalgamation under AS 14?",
+      "difficulty": "High",
+      "target_standards": ["AS 14", "AS 28"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_075",
+      "query": "If an enterprise changes its inventory valuation method from FIFO to weighted average (AS 2), must this be disclosed as a change in accounting policy under AS 5, and how is the financial impact treated?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 2", "AS 5"],
+      "hop_type": "Intersection"
+    }
+  ]
+}
