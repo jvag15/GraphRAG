@@ -1,0 +1,22 @@
+[Unit]
+Description=GraphRAG Ingestion and Nightly Maintenance Cycle
+After=network.target
+
+[Service]
+Type=simple
+User=graphrag
+WorkingDirectory=/home/graphrag/graphrag_engine
+Environment="LD_PRELOAD=/usr/lib/libjemalloc.so"
+Environment="PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True"
+ExecStart=/home/graphrag/graphrag_engine/daily_cycle.sh
+Restart=on-failure
+RestartSec=300
+StandardOutput=journal
+StandardError=journal
+# To enforce a hard stop at 8:55 AM when using the nightly timer,
+# add RuntimeMaxSec=43100 to this [Service] block.
+# 43100 seconds = approximately 11 hours 58 minutes.
+# This kills the process before the next scheduled window opens.
+
+[Install]
+WantedBy=multi-user.target
