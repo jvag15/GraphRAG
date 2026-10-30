@@ -1,0 +1,16 @@
+# CURRENT MODE: Active until July 3rd 2026.
+# Triggers the ingestion service every hour to poll the staging directory.
+# To enable: sudo systemctl enable --now graphrag_ingest_24_7.timer
+# To switch to nightly mode: sudo systemctl disable graphrag_ingest_24_7.timer && sudo systemctl enable --now graphrag_ingest_nightly.timer
+
+[Unit]
+Description=GraphRAG Ingestion - 24/7 Hourly Poll Timer
+Requires=graphrag_ingest.service
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=1h
+Unit=graphrag_ingest.service
+
+[Install]
+WantedBy=timers.target
