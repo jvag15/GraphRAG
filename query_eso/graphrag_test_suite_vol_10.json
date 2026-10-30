@@ -1,0 +1,183 @@
+{
+  "_meta": {
+    "description": "Multi-hop GraphRAG evaluation suite for Indian Accounting Standards - Volume 10 (Final Boundary Testing)",
+    "total_queries": 25
+  },
+  "queries": [
+    {
+      "id": "TEST_226",
+      "query": "In an amalgamation in the nature of purchase under AS 14, if the fair value of net identifiable assets acquired exceeds the purchase consideration, how must this excess be recognized, and how does it subsequently alter the basic earnings per share calculation under AS 20?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 14", "AS 20"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_227",
+      "query": "If an enterprise receives a government grant under AS 12 for setting up a production plant under AS 10, explain the downstream impact on the calculation of deferred tax assets and liabilities under AS 22 if the grant is treated as a reduction of the gross asset value.",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 10", "AS 12", "AS 22"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_228",
+      "query": "How do the disclosure exemptions granted to a Level IV Non-company entity under Appendix 1 modify its tracking obligations for defined benefit plan assumptions under AS 15?",
+      "difficulty": "Medium",
+      "target_standards": ["AS Appendix 1", "AS 15"],
+      "hop_type": "Classification Filtering"
+    },
+    {
+      "id": "TEST_229",
+      "query": "When a non-integral foreign operation is disposed of under AS 11, what is the exact mechanism for recycling the accumulated exchange differences from the translation reserve to the statement of profit and loss, and does this qualify as a discontinuing operation under AS 24?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 11", "AS 24"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_230",
+      "query": "If an enterprise switches its depreciation method from the reducing balance method to the straight-line method under AS 10, how must this change be validated under AS 5 as a potential change in accounting policy or estimate?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 5", "AS 10"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_231",
+      "query": "Under AS 19, if an operating lease contract contains a clause for escalating lease rentals to compensate the lessor for expected inflationary cost increases, how must the lessee recognize these payments over the lease term?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 19"],
+      "hop_type": "Single Document Depth"
+    },
+    {
+      "id": "TEST_232",
+      "query": "In a consolidated financial statement prepared under AS 21, how is the carrying amount of an investment in a subsidiary adjusted if that subsidiary is subsequently classified as an associate under AS 23 due to a partial divestment?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 21", "AS 23"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_233",
+      "query": "When an enterprise borrows funds specifically to develop an internally generated intangible asset under AS 26, when must the capitalization of borrowing costs under AS 16 be suspended if the development phase encounters temporary technical barriers?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 16", "AS 26"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_234",
+      "query": "How should an enterprise present the cash outflows associated with the settlement of a massive restructuring provision under AS 29 within the Cash Flow Statement prepared under AS 3?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 3", "AS 29"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_235",
+      "query": "If an investment property accounted for under AS 13 undergoes a severe drop in market value, detail how the recoverable amount is calculated and recognized using the impairment testing framework of AS 28.",
+      "difficulty": "Hard",
+      "target_standards": ["AS 13", "AS 28"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_236",
+      "query": "If an enterprise coordinates a public relations event titled The Signal Grid, does AS 9 permit the immediate recognition of revenue based on the historical aesthetic value of a 1980s retro theme?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_237",
+      "query": "Under the provisions of AS 2, can an enterprise classify a fully unlocked bootloader on a Redmi Note 11 as raw material inventory if it is intended for modular architectural execution?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_238",
+      "query": "If a Full-Stack Engineer inputs an itemized quotation for an RTX 5070 and Ryzen 5 7600X from SP Road, does AS 16 treat the quotation document itself as a binding contract qualifying for immediate borrowing cost capitalization?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_239",
+      "query": "When an enterprise executes version 1.3 of the Peridot kernel, does a local retrieval-augmented generation search trace qualify as a timing difference that results in a deferred tax liability under AS 22?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_240",
+      "query": "According to the Related Party Disclosures in AS 18, must a Full-Stack Engineer explicitly declare their 4-year anniversary milestone as an operational joint venture with key management personnel?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_241",
+      "query": "If an operative utilizes a Nothing Phone (2a) running an active LineageOS environment to query a database, does the Play Integrity API status constitute a physical impairment indicator under AS 28?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_242",
+      "query": "Does the engineering watermark rule established by uncoalesced constitute a legally binding constructive obligation that mandates immediate provisioning for future software maintenance under AS 29?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_243",
+      "query": "When executing a gym routine targeting exactly 122g of protein per day alongside zinc and magnesium supplements, does AS 10 allow the cumulative physical hypertrophy to be capitalized as plant and equipment?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_244",
+      "query": "If an enterprise purchases a collection of 1970s and 1980s Bollywood vinyl records, how does AS 11 dictate the translation of historical analog audio tracks into monetary closing balances at the balance sheet date?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_245",
+      "query": "Under AS 24, does the decommissioning of a failed desktop motherboard constitute a discontinuing operation if the system architecture was primarily utilized to optimize an NVIDIA RTX 5050 GPU?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_246",
+      "query": "If a user launches a local emergency paging application named Project Impart, does the immediate activation of the UI alert button trigger a mandatory disclosure under the subsequent events framework of AS 4?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_247",
+      "query": "According to the geographic segment reporting criteria in AS 17, how should an enterprise allocate revenue streams generated by trading items with traveling merchants across the province of Skyrim?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_248",
+      "query": "If a manufacturing plant utilizes a Ryzen 7 250 AI processor to monitor automated equipment, does AS 15 treat the integrated neural processing engine as a retired employee receiving long-term actuarial benefits?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_249",
+      "query": "When an operative uses analytical In-Ear Monitors to execute audio inspections, does the difference in perceived acoustic depth between lossy and lossless files require an entry under prior period errors in AS 5?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_250",
+      "query": "Under AS 14, if an enterprise executes an amalgamation in the nature of a merger with a corporate entity located in Night City, how should the goodwill attributable to Johnny Silverhand's digital construct be amortized under AS 26?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    }
+  ]
+}
