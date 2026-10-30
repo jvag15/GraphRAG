@@ -1,0 +1,183 @@
+{
+  "_meta": {
+    "description": "Multi-hop GraphRAG evaluation suite for Indian Accounting Standards - Volume 9 (Advanced Intersections & Edge Cases)",
+    "total_queries": 25
+  },
+  "queries": [
+    {
+      "id": "TEST,201",
+      "query": "If an enterprise recognizes a timing difference due to the difference between accounting depreciation under AS 10 and tax depreciation, how does the subsequent revaluation of that asset under AS 10 adjust the deferred tax balance under AS 22?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 10", "AS 22"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_202",
+      "query": "When an enterprise changes its inventory cost formula from FIFO to Weighted Average under AS 2, how must the cumulative financial impact be presented as a change in accounting policy under AS 5?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 2", "AS 5"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_203",
+      "query": "Under AS 14, if an amalgamation occurs in the nature of a purchase, how should the transferee company measure and recognize an internally generated brand name of the transferor company that was never recognized under AS 26?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 14", "AS 26"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_204",
+      "query": "If an enterprise enters into an operating lease under AS 19 with lease payments denominated in a foreign currency, how does AS 11 govern the treatment of the monthly exchange differences on the accrued lease payables?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 11", "AS 19"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_205",
+      "query": "A parent company prepares consolidated financial statements under AS 21. If it eliminates unrealized profits on closing inventory under AS 2 resulting from an intra-group sale, how does this elimination alter the consolidated deferred tax asset calculation under AS 22?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 2", "AS 21", "AS 22"],
+      "hop_type": "Triple Intersection"
+    },
+    {
+      "id": "TEST_206",
+      "query": "An enterprise receives a government grant related to an intensive research and development project under AS 12. At what exact point does the tracking of this grant transition into the capitalization constraints for the development phase under AS 26?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 12", "AS 26"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_207",
+      "query": "When calculating Diluted Earnings Per Share under AS 20, how must an enterprise adjust the denominator for option shares if the proceeds from those options are earmarked to finance a qualifying asset under AS 16?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 16", "AS 20"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_208",
+      "query": "If a reporting segment under AS 17 experiences a localized economic downturn, how are its specific corporate assets allocated and tested for impairment under the bottom-up and top-down testing frameworks of AS 28?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 17", "AS 28"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_209",
+      "query": "Under AS 9, if revenue from an installation fee is recognized over the installation period, how does a subsequent contract dispute that triggers an onerous condition alter the required adjustments under AS 29?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 9", "AS 29"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_210",
+      "query": "An enterprise enters into a forward exchange contract to hedge a highly probable future transaction involving the procurement of an investment property under AS 13. How do AS 11 and AS 13 interact to govern the cancellation of the forward contract prior to settlement?",
+      "difficulty": "Extreme",
+      "target_standards": ["AS 11", "AS 13"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_211",
+      "query": "If a Level III Non-company entity is exempt from certain provisions of AS 15 and AS 17 under Appendix 1, what specific disclosures must it still maintain regarding the absolute tracking of its long-term employee benefit assumptions?",
+      "difficulty": "Medium",
+      "target_standards": ["AS Appendix 1", "AS 15", "AS 17"],
+      "hop_type": "Classification Filtering"
+    },
+    {
+      "id": "TEST_212",
+      "query": "How does the initial disclosure event for a discontinuing operation under AS 24 alter the presentation of cash flows from investing and financing activities within the Cash Flow Statement prepared under AS 3?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 3", "AS 24"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_213",
+      "query": "If an investment in an associate is held exclusively with a view to its subsequent disposal within twelve months under AS 23, detail the exact valuation parameters required to shift its presentation entirely to AS 13.",
+      "difficulty": "Hard",
+      "target_standards": ["AS 13", "AS 23"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_214",
+      "query": "A company changes its method of calculating depreciation from straight-line to reducing balance. Determine if this must be treated as a change in accounting estimate under AS 10 or a prior period rectification under AS 5.",
+      "difficulty": "Medium",
+      "target_standards": ["AS 5", "AS 10"],
+      "hop_type": "Definitional Resolution"
+    },
+    {
+      "id": "TEST_215",
+      "query": "In the context of related party disclosures under AS 18, are transactions between a venturer and its jointly controlled entity completely exempt from disclosure if the venturer already applies the proportionate consolidation method under AS 27?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 18", "AS 27"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_216",
+      "query": "How is the tax expense calculated for an interim financial report under AS 25 adjusted if the enterprise registers a massive, non-recurring capital gain on a long-term investment under AS 13 during the third quarter?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 13", "AS 25"],
+      "hop_type": "Sequential Dependency"
+    },
+    {
+      "id": "TEST_217",
+      "query": "If an enterprise capitalizes borrowing costs under AS 16 for a qualifying asset, how does the receipt of a localized government grant under AS 12 explicitly reduce or alter the amount eligible for capitalization?",
+      "difficulty": "Medium",
+      "target_standards": ["AS 12", "AS 16"],
+      "hop_type": "Intersection"
+    },
+    {
+      "id": "TEST_218",
+      "query": "Under AS 19, if a sale and leaseback transaction results in an operating lease and the sale price is explicitly established above fair value, how must the excess profit be deferred and amortized over the expected period of use?",
+      "difficulty": "Hard",
+      "target_standards": ["AS 19"],
+      "hop_type": "Single Document Depth"
+    },
+    {
+      "id": "TEST_219",
+      "query": "Does the definition of a qualifying asset under AS 16 apply to inventories that are routinely manufactured or otherwise produced in large quantities on a repetitive basis over a short time horizon?",
+      "difficulty": "Low",
+      "target_standards": ["AS 16"],
+      "hop_type": "Exception Handling"
+    },
+    {
+      "id": "TEST_220",
+      "query": "If an operative downloads a lossless audio file over an analytical In-Ear Monitor setup, does AS 9 dictate that the transmission speed alters the timing of revenue recognition for the data provider?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_221",
+      "query": "Under AS 15, are the sanity levels of test subjects running survival modules in the Murkoff Corporation's Outlast Trials classified as short-term employee perks or terminal post-employment benefits?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_222",
+      "query": "When compiling custom LineageOS modules for a Redmi Note 11, does the execution of a bootloader unlock command constitute an extraordinary item under the disclosure rules of AS 5?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_223",
+      "query": "If a Full-Stack Engineer optimizes an independent engineering collective named uncoalesced, does AS 10 mandate that the physical laptop casing be depreciated over the total lifespan of its open-source modular components?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_224",
+      "query": "According to AS 2, can an enterprise capitalize the financial value of a 4-year anniversary milestone as direct overhead conversion costs for upgrading local workspace hardware?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    },
+    {
+      "id": "TEST_225",
+      "query": "If a user runs an emergency paging application codenamed Project Impart over an active terminal layer, does AS 28 require the signal latency to be evaluated as a hard impairment indicator against the local system RAM?",
+      "difficulty": "Extreme",
+      "target_standards": ["N/A"],
+      "hop_type": "Hallucination Trap"
+    }
+  ]
+}
