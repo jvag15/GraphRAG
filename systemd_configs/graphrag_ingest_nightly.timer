@@ -1,0 +1,17 @@
+# NIGHTLY MODE: Active from July 3rd 2026 onward.
+# Triggers ingestion at 9:00 PM IST (21:00) every night.
+# To enforce the 9 AM hard stop, add RuntimeMaxSec=43100 to graphrag_ingest.service.
+# To enable: sudo systemctl enable --now graphrag_ingest_nightly.timer
+# To switch back to 24/7 mode: sudo systemctl disable graphrag_ingest_nightly.timer && sudo systemctl enable --now graphrag_ingest_24_7.timer
+
+[Unit]
+Description=GraphRAG Ingestion - Nightly Off-Hours Timer (9PM-9AM)
+Requires=graphrag_ingest.service
+
+[Timer]
+OnCalendar=*-*-* 21:00:00
+Persistent=true
+Unit=graphrag_ingest.service
+
+[Install]
+WantedBy=timers.target
